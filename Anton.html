@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>2. Hauptgang</title>
+
+
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Anleitung zur Zubereitung von Steaks"/>
+    <meta name="keywords" content="Steak, Beef, Rind, Foodporn"/>
+    <meta name="author" content="Anton Bechtloff"/>
+    <meta name="robots" content="noindex"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="antonStylesheet.css" rel="stylesheet" type="text/css">
+    <link href="assets/favicon.ico" rel="shortcut icon">
+    <!-- Stylesheet für Downloadbutton -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
+    <script src="antonScript.js"></script>
+    <script src="anton_audioScript.js"></script>
+</head>
+<body>
+<video class="fixedVideo" loop="loop" autoplay="autoplay" muted>
+    <source src="av_media/fire_mp4.mp4" type="video/mp4">
+    <source src="av_media/fire_ogv.ogv" type="video/ogv">
+    <source src="av_media/fire_webm.webm" type="video/webm">
+</video>
+<div class="overlay">
+
+    <nav>
+
+        <ul>
+            <li><img src="assets/logo.png" width="78" height="70" onclick="window.location.href='index.html'" alt="Das Logo kann nicht angezeigt werden." id="logo"/></li>
+            <li><a href="Luca.html">1. Gang</a></li>
+            <li><a href="Christian.html">2. Gang</a></li>
+            <li><a href="Selina.html">3. Gang</a></li>
+            <li><a href="Anton.html" class="active">4. Gang</a></li>
+
+            <li><a href="Leonie.html">5. Gang</a></li>
+        </ul>
+    </nav>
+    <section id="image">
+        <img src="assets/cow_picture.jpg" alt="Das Bild kann leider nicht angezeigt werden."/>
+        <div id="quote">
+            <blockquote>
+                „Spinat schmeckt am Besten, wenn man ihn kurz vor dem Verzehr durch ein großes Steak ersetzt.“
+            </blockquote>
+            <blockquote>
+                „Die Franzosen neigen dazu sehr dünne Steaks zu grillieren, die kaum 200 Gramm wiegen. Für mich ist das
+                Aufschnitt.“
+            </blockquote>
+        </div>
+        <div id="chevron_down"><a href="#content"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></div>
+    </section>
+    <section id="content">
+
+        <div id="generalKnowledge">
+            <h1>Steak Basiswissen</h1>
+            <div>
+                Um das festzustellen, brauchen sie nur ihre Hand. Mithilfe des Handballentests finden Sie innerhalb
+                weniger Sekunden heraus, ob ihr Steak rare, medium oder durch ist.<br>
+                Sie müssen nur die Fleischmitte anfassen. Die folgenden Abbildungen zeigen, wie der Test funktioniert.
+                <div id="gallerybox">
+                    <figure id="gallery">
+
+                        <figure><img src="assets/Bildwechsler/rare.jpg" alt="Steak: Garstufe: Rare">
+                            <figcaption>Rare</figcaption>
+                        </figure>
+                        <figure><img src="assets/Bildwechsler/mediumRare.jpg" alt="Steak: Garstufe: Medium Rare">
+                            <figcaption>Medium Rare</figcaption>
+                        </figure>
+                        <figure><img src="assets/Bildwechsler/mediumRosa.jpg" alt="Steak: Garstufe: Medium Rosa">
+                            <figcaption>Medium Rosa</figcaption>
+                        </figure>
+                        <figure><img src="assets/Bildwechsler/wellDone.jpg" alt="Steak: Garstufe: Well done">
+                            <figcaption>Well done</figcaption>
+                        </figure>
+                    </figure>
+                </div>
+
+
+                <div class="floatBox">
+                    <div class="textBox">
+                        <h3>Rare (Englisch)</h3>
+
+                        <div class="imageBox">
+                            <img src="av_media/medium.jpg" width="96" height="130" class="handImage"
+                                 alt="Das Bild kann nicht dargestellt werden.">
+                        </div>
+
+                        <p>Legen Sie (ohne Druck) den linken Daumen und Zeigefinger zusammen und drücken Sie mit Ihrem
+                            rechten
+                            Zeigefinger unterhalb des Daumens auf den sich dort befindenden Muskel. Dort sollte es sich
+                            ganz
+                            weich anfühlen, so wie ein Schwamm.</p>
+                        <p><strong>Kerntemperatur: ca. 45°C – 52°C (= Kern roh)</strong></p>
+                    </div>
+                </div>
+                <div class="floatBox">
+                    <div class="textBox">
+                        <h3>Medium (Rare)</h3>
+
+                        <div class="imageBox">
+                            <img src="av_media/medium.jpg" width="96" height="130" class="handImage"
+                                 alt="Das Bild kann nicht dargestellt werden.">
+                        </div>
+                        <p>
+                            Legen Sie Daumen und Mittelfinger aneinander und drücken Sie unterhalb des Daumens auf den
+                            Muskel. Es sollte sich leicht, etwas nachgiebig, anfühlen.</p>
+                        <p><strong>Kerntemperatur: ca. 53°C – 56°C (= innerer Kern roh)</strong></p>
+
+                    </div>
+                </div>
+                <div class="floatBox">
+                    <div class="textBox">
+                        <h3>Medium (Rosa)</h3>
+
+                        <div class="imageBox">
+                            <img src="av_media/rosa.jpg" width="96" height="130" class="handImage"
+                                 alt="Das Bild kann nicht dargestellt werden.">
+                        </div>
+                        <p>Legen Sie den Ringfinger auf den Daumen und drücken Sie unterhalb des Daumens auf den Muskel.
+                            Dem Fingerdruck sollte der Ballen kaum noch nachgeben.</p>
+
+                        <p><strong>Kerntemperatur: ca. 57°C – 59°C (= halb durchgebraten)</strong></p>
+                    </div>
+                </div>
+                <div class="floatBox">
+                    <div class="textBox">
+                        <h3>Well done (Durch)</h3>
+                        <div class="imageBox">
+                            <img src="av_media/wellDone.jpg" width="96" height="130" class="handImage"
+                                 alt="Das Bild kann nicht dargestellt werden.">
+                        </div>
+                        <p>Hierzu legen Sie den kleinen Finger auf den Daumen und drücken unterhalb des Daumens auf
+                            Ihren
+                            Muskel. Das Ergebnis sollte hart, aber elastisch sein.
+
+                            Wir raten DRINGEND davon ab, Ihr feines Steak durchzubraten. Völlig unabhängig von der
+                            Qualität
+                            verwandeln Sie somit jedes Steak in eine zähe Schuhsohle. Und das will bei so tollem Fleisch
+                            nun
+                            wirklich niemand.</p>
+                        <p><strong>Kerntemperatur: ca. 60°C – 63°C (= durchgebraten)</strong></p>
+                    </div>
+                </div>
+
+
+                <div class="clearfix"></div>
+
+                <div>
+                    <div class="floatBox ">
+                        <div>
+                            <img src="av_media/cattle_600x400.png" id="cattleMap" usemap="#map_cattle"
+                                 alt="Das Bild kann nicht dargestellt werden.">
+
+                            <map name="map_cattle" id="map_cattle">
+                                <!-- <area shape="rect" coords="0,0,600,400" alt="Sun" id="cow" title="Cow"> -->
+                                <area alt="Hals" id="hals" title="Hals" href="javascript:$(document).ready(function ()"
+                                      coords="166,164,179,200,208,197,208,142,214,117,229,90,222,73,192,66,191,103,187,126,176,152"
+                                      shape="poly">
+                                <area alt="Schulter" id="schulter" title="Schulter"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="227,94,214,114,211,126,207,148,207,169,209,191,212,219,228,215,241,213,257,216,263,237,271,222,283,184,290,154,291,126,281,103,272,94,251,88"
+                                      shape="poly">
+                                <area id="ruecken" alt="Rücken" title="Rücken"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="223,72,257,73,287,81,313,80,323,97,330,125,292,124,283,105,275,95,261,90,243,88,229,94"
+                                      shape="poly">
+                                <area id="feder" alt="Federstück" title="Federstück"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="291,122,329,124,333,145,332,164,327,200,278,198,287,167,291,146"
+                                      shape="poly">
+                                <area id="brust1" alt="Brust" title="Brust"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="326,199,319,241,301,238,281,242,263,237,279,198,295,199" shape="poly">
+                                <area id="nierstueck" alt="Nierstück" title="Nierstück"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="314,80,391,73,391,126,329,126" shape="poly">
+                                <area id="lempen" alt="Lempen" title="Lempen"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="411,125,328,123,331,141,332,165,327,189,319,244,379,236,399,231,413,218,433,230,445,224,431,196,413,156"
+                                      shape="poly">
+                                <area id="huft" alt="Huft" title="Huft" href="javascript:$(document).ready(function ()"
+                                      coords="457,63,389,71,389,126,410,125,421,96,439,78,453,71" shape="poly">
+                                <area id="stotzen" alt="Stotzen" title="Stotzen"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="457,63,486,75,497,92,503,117,505,133,503,151,493,175,486,190,493,208,483,207,468,207,459,210,453,215,444,222,431,197,415,163,409,139,415,110,426,91"
+                                      shape="poly">
+                                <area id="vorderschenkel" alt="Schenkel Vorderschenkel" title="Schenkel Vorderschenkel"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="212,219,234,212,257,217,261,231,261,249,249,272,249,291,227,287,217,254,210,241,217,236"
+                                      shape="poly">
+                                <area id="hinterschenkel" alt="Schenkel Hinterschenkel" title="Schenkel Hinterschenkel"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="493,208,503,229,501,288,483,288,476,261,463,253,445,240,433,229,444,220,457,213,468,205"
+                                      shape="poly">
+                                <area id="brust2" alt="Brust" title="Brust"
+                                      href="javascript:$(document).ready(function ()"
+                                      coords="180,199,207,197,211,215,214,223,215,231,210,241,201,234,191,226"
+                                      shape="poly">
+
+                            </map>
+
+
+                        </div>
+                    </div>
+
+                    <div class="floatBox">
+                        <div class="textBox" id="cowText">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div id="videoBox">
+                <video controls preload="auto">
+                    <source src="av_media/kochvideo_steak_mp4.mp4" type="video/mp4">
+                    <source src="av_media/kochvideo_steak_ogv.ogv" type="video/ogv">
+                    <source src="av_media/kochvideo_steak_webm.webm" type="video/webm">
+                </video>
+
+            </div>
+            <div>
+                <h2>Weitere Informationen</h2>
+            </div>
+            <div id="tips">
+                <div class="tipFloating">
+                    <div class="textBox">
+                        <h3>Pfanne</h3>
+                        <p>Die Wahl einer Pfanne ist essenziell für ein gutes Steak. Am Besten eignen sich in aller
+                            Regel Pfannen aus Aluminium und Gusseisen. </p>
+                        <p>Eine gute Pfanne kostet in der Regel um die <br>100 €. Dafür hält die Pfanne bei richtiger
+                            Handhabung mehrere Jahrzehnte.</p>
+                        <p>Einen Test zu Bratpfannen finden sie <a href="https://www.bratpfannentest.de/steakpfannen/">hier</a>.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="tipFloating">
+                    <div class="textBox">
+                        <h3>Geballtes Wissen auf einem Blatt</h3>
+                        <p>Über den Download des PDFs bekommen Sie kostenlos Zugang zu einem Blatt voller geballtem
+                            Wissen zum Thema Steak und Fleisch.</p>
+                        <p> -- INFORMATIONEN ÜBER DAS PDF ANFUEHREN -- </p>
+                        <a href="http://localhost:63342/images/myw3schoolsimage.jpg" class="button"><i
+                                class="fa fa-download"></i> PDF Download</a>
+
+                    </div>
+                </div>
+                <div class="tipFloating">
+                    <div class="textBox">
+                        <h3>Weiteres ...</h3>
+
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Beschreibung</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td><a href="https://www.ankerkraut.de/grillen">Ankerkraut</a></td>
+                                <td>Shop mit Steakgewürzen</td>
+                            </tr>
+                            </tbody>
+                            <tbody>
+                            <tr>
+                                <td><a href="https://www.block-house.de/block-house-restaurant-best-steaks-since-1968/">Block
+                                    House</a></td>
+                                <td>Gute Steaks essen</td>
+                            </tr>
+                            </tbody>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://www.gourmetfleisch.de/rind/?pid=12605&gclid=CjwKCAiA8qLvBRAbEiwAE_ZzPSHXxjxj2gpYl4tx_7J5ufpc6eMBQz2PpYMGIHVgrmBZq01_nRGX-BoCZWgQAvD_BwE">Gourmetfleisch.de</a>
+                                </td>
+                                <td>Fleisch liefern lassen</td>
+                            </tr>
+                            </tbody>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://www.cooknsoul.de/essen-und-trinken/rezeptideen/beilagen-zum-steak/">Cooksnoul.de</a>
+                                </td>
+                                <td>Beilagen für Steaks</td>
+                            </tr>
+                            </tbody>
+                            <tbody>
+                            <tr>
+                                <td><a href="https://www.maennersache.de/steak">Männersache.de</a></td>
+                                <td>Steakabschnitt des Online Magazins Männersache</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <footer>
+
+
+        <!-- Mittlere Float Box -->
+        <div id="midbox">
+            <a href="#" class="whitelinks">&#8657; Nach oben Scrollen</a>
+        </div>
+
+
+        <div id="footerWrapper">
+            <div class="FooterFloatBox">
+                <div class="FooterTextBox">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="assets/visitenkarte_vorne.png" alt="Visitenkarte Vorderseite" width="400"
+                                     height="228">
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="assets/visitenkarte_hinten.png" alt="Visitenkarte Rückseite" width="400"
+                                     height="228">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Rechte Float Box -->
+            <div class="FooterFloatBox">
+                <div class="FooterTextBox">
+                    <div class="form-style">
+                        <h3>Kontakt</h3>
+                        <form>
+                            <label for="name">Ihr Name</label>
+                            <input type="text" name="deinName" id="name" placeholder="Ihr Name"/>
+
+                            <label for="email">Ihre E-Mail Adresse</label>
+                            <input type="email" name="emailAddress" id="email" placeholder="Email Adresse"/>
+
+                            <label for="textarea">Ihre Nachricht</label>
+                            <textarea name="textfeld" id="textarea" placeholder="Nachricht eintippen"></textarea>
+                            <input type="submit" value="Absenden"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="copyDiv">
+            <p>&copy; Anton Bechtloff
+            <p>
+        </div>
+
+        <div class="clearfix"></div>
+    </footer>
+</div>
+
+
+<!-- Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Some text in the Modal..</p>
+        <form>
+            <button type="button" id="startMusic" onclick="play()">Musik PLAY</button>
+        </form>
+
+    </div>
+
+</div>
+<!-- End of Modal -->
+
+
+<!-- AUDIO -->
+<audio id="audiofile" preload="auto">
+    <source src="av_media/jazz_mp3.mp3" type="audio/mp3">
+    <source src="av_media/jazz_wav.wav" type="audio/wav">
+    <source src="av_media/jazz_ogg.ogg" type="audio/ogg">
+</audio>
+<!-- Musiksteuerung -->
+
+
+<div id="fixedSite">
+    <div>
+        <button type="button" class="music_button" onclick="play()"><i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+    </div>
+    <div>
+        <button type="button" class="music_button" onclick="stop()"><i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+    </div>
+</div>
+<!-- End of Musiksteuerung -->
+
+
+<!-- End of audio -->
+
+</body>
+</html>
